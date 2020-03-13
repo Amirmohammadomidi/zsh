@@ -19,5 +19,8 @@ nano /bin/zsh/aliaserc
 ```
 
 ## To make ZSH your default shell: 
-  - simply change /bin/zsh in /etc/passwd to /bin/bash
+```
+sudo sed 's/bash/zsh/g' /etc/passwd -i
+```
+
 
