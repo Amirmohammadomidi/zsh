@@ -1,4 +1,4 @@
-# zsh
+# ZSH
 My ZSH Config from christitustech (with some improvements and fixes)
 
 ## Get Dependancies 
@@ -18,6 +18,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 nano /bin/zsh/aliaserc
 ```
 
-## To make zsh your default shell: 
+## To make ZSH your default shell: 
   - simply change /bin/zsh in /etc/passwd to /bin/bash
 
