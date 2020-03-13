@@ -1,5 +1,5 @@
 # ZSH
-My ZSH Config from christitustech (with some improvements and fixes)
+My ZSH Config (from christitustech with some improvements and fixes)
 
 ## Get Dependancies 
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
