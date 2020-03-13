@@ -13,12 +13,12 @@ mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/history"
 wget https://github.com/ChrisTitusTech/zsh/raw/master/.zsh/aliasrc -O ~/.zsh/aliasrc
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
-## To set aliases: 
+## To set aliases
 ```
 nano /bin/zsh/aliaserc
 ```
 
-## To make ZSH your default shell: 
+## To make ZSH your default shell 
 ```
 sudo sed 's/bash/zsh/g' /etc/passwd -i
 ```
