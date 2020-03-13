@@ -14,4 +14,5 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
   - autojump - jump to directories with j or jc for child or jo to open in file manager
   - zsh-autosuggestions - Suggestions based on your history
   
-Finish the conversion by changing your user in /etc/passwd to /bin/zsh instead of /bin/bash
+To make zsh your default shell your user simply change /bin/zsh in /etc/passwd to /bin/bash
+  
