@@ -18,5 +18,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 nano /bin/zsh/aliaserc
 ```
 
-To make zsh your default shell your user simply change /bin/zsh in /etc/passwd to /bin/bash
+## To make zsh your default shell: 
+  - simply change /bin/zsh in /etc/passwd to /bin/bash
 
