@@ -14,7 +14,7 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
   - autojump --> jump to directories with j or jc for child or jo to open in file manager (available in AUR)
   - zsh-autosuggestions --> Suggestions based on your history
 
-## to set aliases: 
+## To set aliases: 
 ```
 nano /bin/zsh/aliaserc
 ```
