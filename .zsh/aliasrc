@@ -78,4 +78,4 @@ alias mv='mv -i'
 alias ydl='youtube-dl'
 
 alias up='sudo pacman -Syu'
-alias un='yay -Rns'
+alias un='sudo pacman -Rns'
