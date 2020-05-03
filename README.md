@@ -15,13 +15,14 @@ mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/history"
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zsh/aliasrc -O ~/.zsh/aliasrc
 ```
 ## Theming
-execute this after finishing the setup process for theming to apply :
+Execute this after finishing the setup process for theming to apply :
 ```
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 ```
 ![j](https://raw.githubusercontent.com/sindresorhus/pure/master/screenshot.png)
 ## To make ZSH your default shell 
+Execute this command :
 ```
 sudo sed 's/bash/zsh/g' /etc/passwd -i
 ```
