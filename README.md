@@ -20,6 +20,7 @@ execute this after finishing the setup process for theming to apply :
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 ```
+https://github.com/Amirmohammadomidi/zsh/blob/master/screenshot.png
 ## To make ZSH your default shell 
 ```
 sudo sed 's/bash/zsh/g' /etc/passwd -i
