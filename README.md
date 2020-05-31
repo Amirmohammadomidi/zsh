@@ -14,7 +14,7 @@ mkdir -p "$HOME/.zsh" && mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zsh/aliasrc -O ~/.zsh/aliasrc
 ```
 ## Theming
-Execute this after finishing the setup process for theming to apply :
+Execute this after you finished the setup process for theming to apply :
 ```
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
