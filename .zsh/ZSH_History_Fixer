@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Amirmohammad Omidi
+
+mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/history"
