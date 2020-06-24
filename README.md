@@ -1,15 +1,14 @@
 # About ZSH
 The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh. (from christitustech with some improvements and fixes)
 
-## Update 1:
-this update includes some new features listed below :  
+## Update 1:  
    added feature:
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.
    added some optional Dependancies:
   - zsh-you-should-use --> reminds you of your existing aliases for a command you just typed.
   - find-the-command --> Advanced command-not-found hook for bash and zsh using the power of pacman.
-  ## note:
+   note:
   to use optional dependancies please uncomment line 54 and 55 in .zshrc file located in your home folder.
 ## Get Dependancies 
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
