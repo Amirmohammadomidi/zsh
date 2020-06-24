@@ -11,7 +11,7 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 ## Note
   to use optional dependancies after updating and installing them please uncomment line 54 and 55 in .zshrc file located in your home folder.
 ## How to update
-   run this!
+Execute this command (dont worry your aliases will be untouched) : 
 ```
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
 ```
