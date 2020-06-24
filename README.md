@@ -3,10 +3,10 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 ## Update 1:
 this update includes some new features listed below :  
-  ## added feature:
+   added feature:
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.
-  ## added some optional Dependancies:
+   added some optional Dependancies:
   - zsh-you-should-use --> reminds you of your existing aliases for a command you just typed.
   - find-the-command --> Advanced command-not-found hook for bash and zsh using the power of pacman.
   ## note:
