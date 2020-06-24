@@ -8,9 +8,9 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 ### optional dependancies  
   - zsh-you-should-use --> reminds you of your existing aliases for a command you just typed.
   - find-the-command --> Advanced command-not-found hook for bash and zsh using the power of pacman.
-## Note
+### Note
   to use optional dependancies after updating and installing them please uncomment line 54 and 55 in .zshrc file located in your home folder.
-## How to update
+### How to update
 Execute this command (dont worry your aliases will be untouched) : 
 ```
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
