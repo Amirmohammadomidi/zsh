@@ -1,21 +1,5 @@
 # About ZSH
 The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh. (from christitustech with some improvements and fixes)
-
-# Update 1 
-### added feature
-  - Auto complete with case insenstivity.
-  - use vim keys or arrow keys to move between files and directories provided by tab suggestions.                                                          
-### optional dependancies  
-  - zsh-you-should-use --> reminds you of your existing aliases for a command you just typed.
-  - find-the-command --> Advanced command-not-found hook for bash and zsh using the power of pacman.
-### Note
-  to use optional dependancies after updating via command below and installing them please uncomment line 54 and 55 in .zshrc file located in your home folder.
-### How to update
-Execute this command (dont worry your aliases will be untouched) : 
-```
-wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
-```
-   
 ## Get Dependancies 
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
   - autojump --> jump to directories with j or jc for child or jo to open in file manager (available in the AUR)
@@ -35,6 +19,21 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 ```
 ![j](https://raw.githubusercontent.com/sindresorhus/pure/master/screenshot.png)
+# Update 1 
+### added feature
+  - Auto complete with case insenstivity.
+  - use vim keys or arrow keys to move between files and directories provided by tab suggestions.                                                          
+### optional dependancies  
+  - zsh-you-should-use --> reminds you of your existing aliases for a command you just typed.
+  - find-the-command --> Advanced command-not-found hook for bash and zsh using the power of pacman.
+### Note
+  to use optional dependancies after updating via command below and installing them please uncomment line 54 and 55 in .zshrc file located in your home folder.
+### How to update
+Execute this command (dont worry your aliases will be untouched) : 
+```
+wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
+```
+   
 ## To make ZSH your default shell 
 Execute this command :
 ```
