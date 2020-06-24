@@ -1,5 +1,5 @@
 # About ZSH
-The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh. (from christitustech with some new feature, improvements and fixes)
+The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh. (from christitustech with some new features, improvements and fixes)
 ## Get Dependancies 
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
   - autojump --> jump to directories with j or jc for child or jo to open in file manager (available in the AUR)
