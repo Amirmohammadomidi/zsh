@@ -20,10 +20,10 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
 ![j](https://raw.githubusercontent.com/sindresorhus/pure/master/screenshot.png)
 # Update 1 
-### added features
+### Added features
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.                                                          
-### optional dependancies  
+### Optional dependancies  
   - zsh-you-should-use --> reminds you of your existing aliases for a command you just typed.
   - find-the-command --> Advanced command-not-found hook for bash and zsh using the power of pacman.
 ### Notice
