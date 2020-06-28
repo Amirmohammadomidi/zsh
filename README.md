@@ -20,13 +20,13 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
 ![j](https://raw.githubusercontent.com/sindresorhus/pure/master/screenshot.png)
 # Update 1 
-### added feature
+### added features
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.                                                          
 ### optional dependancies  
   - zsh-you-should-use --> reminds you of your existing aliases for a command you just typed.
   - find-the-command --> Advanced command-not-found hook for bash and zsh using the power of pacman.
-### Note
+### Notice
   to use optional dependancies after updating via command below and installing them please uncomment line 54 and 55 in .zshrc file located in your home folder.
 ### How to update
 Execute this command (dont worry your aliases will be untouched) : 
