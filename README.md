@@ -39,5 +39,8 @@ Execute this command :
 ```
 sudo sed 's/bash/zsh/g' /etc/passwd -i
 ```
-
+Or alternatively you can use :
+```
+chsh -s /usr/bin/zsh
+```
 
