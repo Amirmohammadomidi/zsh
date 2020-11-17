@@ -29,10 +29,10 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ## To make ZSH your default shell 
 Execute this command :
 ```
-sudo sed 's/bash/zsh/g' /etc/passwd -i
+chsh -s /usr/bin/zsh
 ```
 Or alternatively you can use :
 ```
-chsh -s /usr/bin/zsh
+sudo sed 's/bash/zsh/g' /etc/passwd -i
 ```
 
