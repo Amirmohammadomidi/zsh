@@ -4,8 +4,8 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
   - autojump --> jump to directories with j or jc for child or jo to open in file manager (available in AUR)
   ![j](https://user-images.githubusercontent.com/45071921/76967237-0ced4380-691f-11ea-85a6-905271353e72.gif)
-  - zsh-autosuggestions (OPTIONAL) --> Suggestions based on your history
-  - zsh-you-should-use (OPTIONAL --> reminds you of your existing aliases for a command you just typed.
+  - zsh-autosuggestions --> Suggestions based on your history
+  - zsh-you-should-use (OPTIONAL) --> reminds you of your existing aliases for a command you just typed.
 ## Setup
 Just copy and past each line in order, to your preferred terminal emulator :
 ```
@@ -25,7 +25,7 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.                                                          
 ### Notice
-  to use optional dependancies after updating via command below and installing them please uncomment line 54 and 55 in .zshrc file located in your home folder. 
+  to use optional dependancy after updating via command below and installing them please uncomment line 54 in .zshrc file located in your home folder. 
 ## To make ZSH your default shell 
 Execute this command :
 ```
