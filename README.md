@@ -24,8 +24,6 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ## Added features
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.                                                          
-### Notice
-  to use optional dependancy after updating via command below and installing them please uncomment line 54 in .zshrc file located in your home folder. 
 ## To make ZSH your default shell 
 Execute this command :
 ```
