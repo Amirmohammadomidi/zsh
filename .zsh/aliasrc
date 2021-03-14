@@ -1,6 +1,6 @@
-#
-# # ex - archive extractor
-# # usage: ex <file>
+
+# ex - archive extractor
+# usage: ex <file>
 ex ()
 {
   if [ -f $1 ] ; then
@@ -22,6 +22,8 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+# put you aliases bellow this line
 
 export EDITOR=nano
 
