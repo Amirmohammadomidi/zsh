@@ -1,6 +1,6 @@
 # About ZSH
 The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh. (from christitustech with some new features, improvements and fixes)
-## Get Dependancies 
+## Get Dependancies
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
   - autojump --> jump to directories with j or jc for child or jo to open in file manager (available in AUR)
   ![j](https://user-images.githubusercontent.com/45071921/76967237-0ced4380-691f-11ea-85a6-905271353e72.gif)
@@ -20,14 +20,14 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 ```
 ![j](https://raw.githubusercontent.com/sindresorhus/pure/master/screenshot.png)
- 
+
 ## Added features
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.        
 ### Notice
-In order to use the added features after installing the coresponding dependencies you need to uncomment lines 54-55 of your .zshrc.
+In order to use the added features after installing the coresponding dependencies you need to uncomment lines 53-54 of your .zshrc.
 
-## To make ZSH your default shell 
+## To make ZSH your default shell
 Execute this command :
 ```
 chsh -s /usr/bin/zsh
@@ -36,4 +36,3 @@ Or alternatively you can use :
 ```
 sudo sed 's/bash/zsh/g' /etc/passwd -i
 ```
-
