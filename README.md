@@ -32,7 +32,7 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ### Notice
 In order to use the added features after installing the coresponding dependencies you need to uncomment lines 53-54 of your .zshrc.
 
-## To make ZSH your default shell
+## make ZSH your default shell
 Execute this command :
 ```
 chsh -s /usr/bin/zsh
