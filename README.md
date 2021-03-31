@@ -12,7 +12,7 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 ### Configuration 
 
-After installing the Zsh package from your distributions repository just copy and past each line in order, to your preferred terminal emulator :
+After installing the Zsh package from your distributions repository just copy and past each line to your preferred terminal emulator :
 ```
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
 mkdir -p "$HOME/.zsh" && mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/history"
