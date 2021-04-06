@@ -31,11 +31,11 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.        
 
 ## Make ZSH your default shell
-Execute this command :
+Execute this command(recommended) :
 ```
 chsh -s /usr/bin/zsh
 ```
-Or alternatively you can use :
+Or alternatively you can use this :
 ```
 sudo sed 's/bash/zsh/g' /etc/passwd -i
 ```
