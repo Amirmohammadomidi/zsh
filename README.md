@@ -12,14 +12,14 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 ### Configuration 
 
-After installing the Zsh package from your distributions repository just copy and paste each line to your preferred terminal emulator :
+After installing the Zsh package from your distributions repository just copy and paste each line to your preferred terminal emulator:
 ```
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
 mkdir -p "$HOME/.zsh" && mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/history"
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zsh/aliasrc -O ~/.zsh/aliasrc
 ```
 ### Theming
-Execute this after you finished the setup process for theming to apply :
+Execute this after you finished the setup process for theming to apply:
 ```
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
@@ -31,11 +31,11 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.        
 
 ## Make ZSH your default shell
-Execute this command(recommended) :
+Execute this command(recommended):
 ```
 chsh -s /usr/bin/zsh
 ```
-Or alternatively you can use this :
+Or alternatively you can use this:
 ```
 sudo sed 's/bash/zsh/g' /etc/passwd -i
 ```
