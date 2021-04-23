@@ -10,6 +10,18 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
   - zsh-autosuggestions --> Suggestions based on your history
   - zsh-you-should-use (OPTIONAL) --> reminds you of your existing aliases for a command you just typed.
 
+#### Debian/Ubuntu Dependencies
+
+```bash
+sudo apt install zsh-syntax-highlighting autojump zsh-autosuggestions
+```
+
+#### Arch Dependencies
+
+```bash
+yay -S zsh-syntax-highlighting autojump zsh-autosuggestions
+```
+
 ### Configuration 
 
 After installing the Zsh package from your distributions repository just copy and paste each line to your preferred terminal emulator:
