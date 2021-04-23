@@ -21,7 +21,7 @@ sudo apt install zsh-syntax-highlighting autojump zsh-autosuggestions
 ### Arch Dependencies
 
 ```bash
-yay -S zsh-syntax-highlighting autojump zsh-autosuggestions
+paru -S zsh-syntax-highlighting autojump zsh-autosuggestions
 ```
 
 ### Configuration 
