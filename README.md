@@ -3,9 +3,9 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 # Setup
 
-## Get Dependancies
+### Get Dependancies
 
-### List of needed dependancies
+#### List of needed dependancies
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
   - autojump --> jump to directories with j or jc for child or jo to open in file manager (available in AUR)
   ![j](https://user-images.githubusercontent.com/45071921/76967237-0ced4380-691f-11ea-85a6-905271353e72.gif)
