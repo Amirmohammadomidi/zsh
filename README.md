@@ -12,7 +12,6 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
   - zsh-autosuggestions --> Suggestions based on your history
   - zsh-you-should-use (OPTIONAL) --> reminds you of your existing aliases for a command you just typed.
 
-
 ### Debian/Ubuntu Dependencies
 
 ```bash
@@ -41,11 +40,11 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
 ![j](https://raw.githubusercontent.com/sindresorhus/pure/master/screenshot.png)
 
-# Additional features
+## Additional features
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.        
 
-# Make ZSH your default shell
+## Make ZSH your default shell
 Execute this command(recommended):
 ```
 chsh -s /usr/bin/zsh
