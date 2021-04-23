@@ -3,11 +3,9 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 # Setup
 
-After installing ZSH on your system read the following tutorial.
+### Get Dependancies
 
-## Get Dependancies
-
-### List of needed dependancies
+#### List of needed dependancies
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
   - autojump --> jump to directories with j or jc for child or jo to open in file manager (available in AUR)
   ![j](https://user-images.githubusercontent.com/45071921/76967237-0ced4380-691f-11ea-85a6-905271353e72.gif)
@@ -26,7 +24,7 @@ sudo apt install zsh-syntax-highlighting autojump zsh-autosuggestions
 paru -S zsh-syntax-highlighting autojump zsh-autosuggestions
 ```
 
-## Configuration 
+### Configuration 
 
 After installing the Zsh package from your distributions repository just copy and paste each line to your preferred terminal emulator:
 ```
@@ -34,7 +32,7 @@ wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
 mkdir -p "$HOME/.zsh" && mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/history"
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zsh/aliasrc -O ~/.zsh/aliasrc
 ```
-## Theming
+### Theming
 Execute this after you finished the setup process for theming to apply:
 ```
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
@@ -42,11 +40,11 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ```
 ![j](https://raw.githubusercontent.com/sindresorhus/pure/master/screenshot.png)
 
-## Additional features
+### Additional features
   - Auto complete with case insenstivity.
   - use vim keys or arrow keys to move between files and directories provided by tab suggestions.        
 
-## Make ZSH your default shell
+### Make ZSH your default shell
 Execute this command(recommended):
 ```
 chsh -s /usr/bin/zsh
