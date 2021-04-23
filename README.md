@@ -12,6 +12,8 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
   - zsh-autosuggestions --> Suggestions based on your history
   - zsh-you-should-use (OPTIONAL) --> reminds you of your existing aliases for a command you just typed.
 
+Execute the following command based on the Linux distribution you're on to install the dependencies:
+
 #### Debian/Ubuntu Dependencies
 
 ```bash
