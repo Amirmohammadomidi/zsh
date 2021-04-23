@@ -3,6 +3,8 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 # Setup
 
+After installing ZSH on your system read the following tutorial.
+
 ## Get Dependancies
 
 ### List of needed dependancies
