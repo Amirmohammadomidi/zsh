@@ -3,7 +3,7 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 # Setup
 
-### Get Dependancies
+### 1- Install ZSH and Get Dependancies
 
 #### List of needed dependancies
   - zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
@@ -26,7 +26,7 @@ sudo apt install zsh-syntax-highlighting autojump zsh-autosuggestions
 paru -S zsh-syntax-highlighting autojump zsh-autosuggestions
 ```
 
-### Configuration 
+### 2- Configuration 
 
 After installing the Zsh package from your distributions repository just copy and paste each line to your preferred terminal emulator:
 ```
@@ -34,7 +34,7 @@ wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zshrc -O ~/.zshrc
 mkdir -p "$HOME/.zsh" && mkdir -p "$HOME/.cache/zsh" && touch "$HOME/.cache/zsh/history"
 wget https://github.com/Amirmohammadomidi/zsh/raw/master/.zsh/aliasrc -O ~/.zsh/aliasrc
 ```
-### Theming
+### 3- Theming
 Execute this after you finished the setup process for theming to apply:
 ```
 git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
