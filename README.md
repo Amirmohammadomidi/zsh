@@ -17,13 +17,13 @@ Execute the following command based on the Linux distribution you're on to insta
 #### Debian/Ubuntu Dependencies
 
 ```bash
-sudo apt install zsh-syntax-highlighting autojump zsh-autosuggestions
+sudo apt install zsh zsh-syntax-highlighting autojump zsh-autosuggestions
 ```
 
 #### Arch Dependencies
 
 ```bash
-paru -S zsh-syntax-highlighting autojump zsh-autosuggestions
+paru -S zsh zsh-syntax-highlighting autojump zsh-autosuggestions
 ```
 
 ### 2- Configuration 
