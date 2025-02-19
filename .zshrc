@@ -1,4 +1,4 @@
-# Dependancies You Need for this Config
+# Dependancies
 # zsh-syntax-highlighting --> syntax highlighting for ZSH in standard repos
 # autojump --> jump to directories with j or jc for child or jo to open in file manager (available in AUR)
 # zsh-autosuggestions --> Suggestions based on your history
