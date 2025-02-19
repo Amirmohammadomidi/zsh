@@ -24,7 +24,7 @@ ex ()
 
 # put you aliases bellow this line
 
-export EDITOR=nano
+export EDITOR=vim
 
 alias pacman-update='sudo pacman-mirrors --geoip'
 
